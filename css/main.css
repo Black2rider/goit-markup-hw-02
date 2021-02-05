@@ -29,8 +29,8 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--text-black); 
-  outline: none;
+  color: var(--text-black);
+  outline: none; 
 }
 
 ul {
@@ -48,6 +48,11 @@ ul {
 
 .logo-link{
   color: var(--text-blue);
+}
+
+.logo:hover,
+.logo:focus {
+  background-color: var(--text-grey);
 }
 
 .link {
@@ -72,7 +77,6 @@ ul {
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--text-blue);
-
 }
 
 /* --- Баннер --- */
@@ -94,7 +98,7 @@ ul {
 .hero-btn {
   color: var(--text-hero-white);
   background-color: var(--text-blue);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -102,3 +106,18 @@ ul {
 
 /* --- Особенности --- */
 
+.features-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-grey);
+}
