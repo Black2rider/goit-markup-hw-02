@@ -1,41 +1,4 @@
-/* --- Основа --- */
-
-:root {
-  --text-blue: #2196F3;
-  --text-hero-white: #ffffff;
-  --text-white-footer: rgba(255, 255, 255, .6);
-  --text-black: #212121;
-  --text-grey: #757575;
-  --background-hero: #2F303A;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;;
-}
-
-a {
-  text-decoration: none;
-  color: var(--text-black);
-  outline: none; 
-}
-
-ul {
-  list-style: none;
-}
+/* --- ГЛАВНАЯ СТРАНИЦА --- */
 
 /* --- Шапка--- */
 
@@ -52,16 +15,9 @@ ul {
   color: var(--text-blue);
 }
 
-/* Поменял background что б видно было при наведении*/
-.logo:hover,
-.logo:focus {
-  background-color: var(--text-grey);
-}
-
 .header-link {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  line-height: btn1.14;
   letter-spacing: 0.02em;
 }
 
@@ -72,9 +28,9 @@ ul {
 
 .header-contacts {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--text-grey);
 }
 
 .header-contacts:hover,
@@ -118,8 +74,7 @@ ul {
 }
 
 .features-text {
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-grey);
@@ -127,7 +82,7 @@ ul {
 
 /* --- Чем мы занимаемся --- */
 
-.work-heading {
+.heading-main {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -137,15 +92,6 @@ ul {
 }
 
 /* --- Наша команда --- */
-
-.family-heading {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--text-black);
-}
 
 .family-name {
   font-weight: 500;
@@ -157,7 +103,7 @@ ul {
 }
 
 .family-proffesion {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -165,6 +111,8 @@ ul {
   color: var(--text-grey);
 
 }
+
+/* --- Футер --- */
 
 /* --- Адресс --- */
 
