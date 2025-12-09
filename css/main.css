@@ -1,0 +1,80 @@
+/* HEADER*/
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo .logo-link {
+    color: var(--iris);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--ocean);
+}
+
+.link-active:active{
+    text-decoration: underline;
+}
+
+.adress-link {
+    color: var(--slate);
+    font-style: normal;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--ocean);
+}
+
+/* Section HERO*/
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.hero-button {
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background: var(--iris);
+}
+
+/* Section OUR FEATURES
+The section inherits from the file style.css*/
+
+/* Section OUR FEATURES*/
+.team-heading {
+    text-align: center;
+}
+
+.team-paragraph {
+    text-align: center;
+}
+
+/* Section OUR FEATURES
+The section inherits from the file style.css*/
+
+/* FOOTER */
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.logo-footer {
+    color: var(--cloud);
+}
+
+.footer-paragraph {
+    color: var(--cloud);
+}
