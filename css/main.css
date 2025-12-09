@@ -49,10 +49,22 @@
     letter-spacing: 0.04em;
     color: var(--white);
     background: var(--iris);
+    cursor: pointer;
 }
 
-/* Section OUR FEATURES
-The section inherits from the file style.css*/
+.hero-button:hover,
+.hero-button:focus {
+    background: var(--ocean);
+}
+
+/* Section OUR FEATURES */
+.team-section {
+    background: var(--cloud);
+}
+
+.team-list {
+    background: var(--white);
+}
 
 /* Section OUR FEATURES*/
 .team-heading {
