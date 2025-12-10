@@ -1,3 +1,4 @@
+/* MAIN STYLES*/
 :root {
     --iris: #4d5ae5;
     --ocean: #404bbf;
@@ -31,7 +32,7 @@ body {
 a {
     text-decoration: none;
     color: var(--text-black);
-    outline: none;
+    
 }
 
 ul {
@@ -39,10 +40,8 @@ ul {
 }
 
 h2 {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
 }
 
 h3 {
@@ -52,6 +51,100 @@ h3 {
 }
 
 p {
-    font-weight: 400;
     color: var(--slate);
+}
+
+/* HEADER*/
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo .logo-link {
+  color: var(--iris);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean);
+}
+
+.adress-link {
+  color: var(--slate);
+  font-style: normal;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--ocean);
+}
+
+/* Section HERO*/
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero-button {
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background: var(--iris);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--ocean);
+}
+
+/* Section OUR FEATURES The section inherits*/
+
+/* Section OUR TEAM */
+.team {
+  text-align: center;
+}
+
+.team-section {
+  background: var(--cloud);
+}
+
+.team-list {
+  background: var(--white);
+}
+
+.team-heading {
+  text-align: center;
+}
+
+.team-paragraph {
+  text-align: center;
+}
+
+/* Section OUR PORTFOLIO */
+.portfolio{
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.logo-footer {
+  color: var(--cloud);
+}
+
+.footer-paragraph {
+  color: var(--cloud);
 }
